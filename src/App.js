@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import { SearchBar } from './components/SearchBar/SearchBar';
+import { Posts } from './components/Posts/Posts';
+import { Comments } from './components/Comments/Comments';
+import { SubReddits } from './components/SubReddits/SubReddits';
+import { Vote } from './components/Vote/Vote';
+import { Topics } from './components/Topics/Topics';
+import { Reddit } from './components/Reddit/Reddit';
+import { Route } from 'react-router';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SearchBar />
+      <div className='box'>
+        <Posts />
+        <Comments />
+        <SubReddits />
+      </div>
+      <Vote />
+      <Topics />
+      
     </div>
   );
 }

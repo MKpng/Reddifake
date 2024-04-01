@@ -1,0 +1,83 @@
+.posts {
+    height: 75vh;
+    width: 70vw;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-bottom: 5vh;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.25),
+    0 0 20px rgba(0, 0, 0, 0.20);
+}
+
+.posts:hover {
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.25),
+    0 0 20px rgba(0, 0, 0, 0.20),
+    0 0 30px rgba(0, 0, 0, 0.15),
+    0 0 40px rgba(0, 0, 0, 0.10),
+    0 0 50px rgba(0, 0, 0, 0.05),
+    0 0 60px rgba(0, 0, 0, 0.025),
+    0 0 70px rgba(0, 0, 0, 0.0125);
+}
+
+.post-title {
+    text-align: left;
+    font-family: monospace;
+    margin-left: 2.5vw;
+    padding-top: 1.75vh;
+}
+
+.showComments {
+    height: fit-content;
+}
+
+.img-div {
+    height: 60vh;
+    width: 65vw;
+    background-color: rgb(10, 9, 9);
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.comment {
+    margin-left: 66vw;
+    margin-top: 4vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+.comments-section {
+    margin-left: 2.5vw;
+    margin-bottom: 1vh;
+    margin-top: 1.5vh;
+    height: 8vh;
+    padding-left: 1vw;
+    font-family: monospace;
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: aliceblue;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+
+.comments-section:hover {
+    box-shadow: 
+    0 0 10px rgba(221, 119, 3, 0.5),
+    0 0 20px rgba(221, 119, 3, 0.5);
+}
+
+.com-div {
+    padding-bottom: 2vh;
+    padding-right: 2.5vw;
+}
+
+.fas.fa-comment:hover {
+    cursor: pointer;
+    font-size: 2.75vh;
+}
+
+.fas.fa-comment {
+    font-size: 2.5vh;
+    color: black;
+}

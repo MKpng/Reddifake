@@ -1,0 +1,77 @@
+.SearchBar {
+    text-align: center;
+}
+  
+.header {
+    background-color: #121213;
+    min-height: 7.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 
+    0 0 10px rgba(0, 0, 0, 0.25),
+    0 0 20px rgba(0, 0, 0, 0.20),
+    0 0 30px rgba(0, 0, 0, 0.15),
+    0 0 40px rgba(0, 0, 0, 0.10),
+    0 0 50px rgba(0, 0, 0, 0.05),
+    0 0 60px rgba(0, 0, 0, 0.025),
+    0 0 70px rgba(0, 0, 0, 0.0125);
+}
+  
+.header-button {
+    color:aliceblue;
+    font-family: monospace;
+    background-color: #121213;
+    font-size: 2.5vh;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.header-button:hover {
+    font-size: 2.75vh;
+}
+  
+.header-button span {
+    color: #ff6314;
+}
+
+.header-button:hover span, 
+.header-button:hover .fab.fa-reddit {
+    color: #5296dd;
+}
+  
+.fab.fa-reddit {
+    color: #ff6314;
+    font-size: 3.5vh;
+    padding-right: 0.3vw;
+}
+  
+.header-button:hover .fab.fa-reddit {
+    font-size: 4vh;
+}
+
+.bar {
+    margin-left: 1vw;
+    border: 2px solid #ff6314;
+    height: 3.5vh;
+    width: 15vw;
+    border-radius: 10px;
+    font-family: monospace;    
+    font-size: 2vh;
+    cursor: text;
+}
+
+.lense {
+    background-color: #121213;
+    border: 0px;
+    cursor: pointer;
+}
+
+.fas.fa-search {
+    color: white;
+    font-size: 2.25vh;
+    margin-left: 0.75vw;
+}
